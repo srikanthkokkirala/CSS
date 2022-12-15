@@ -1,0 +1,41 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+div{
+  min-height: 100vh;
+  color: rgb(248, 248, 248);
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  align-items: center;
+  font-size: 60px;
+  
+
+}
+.big{ background: linear-gradient(to top,rgba(0,0,0,.3),rgba(0,0,0,.6)),url("https://img.freepik.com/premium-photo/flower-rangoli-diwali-pongal-made-using-marigold-zendu-flowers-red-rose-petals-white-background-with-clay-oil-lamp-middle-selective-focus_466689-20064.jpg?w=1060");
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:fixed;
+  
+
+}
+.small{
+  background: url("https://img.freepik.com/free-photo/assortment-teacher-s-day-elements_23-2149044959.jpg?size=626&ext=jpg&uid=R31762733");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+
+}
+.folder{background: url("https://img.freepik.com/premium-photo/flower-rangoli-diwali-pongal-made-using-marigold-zendu-flowers-red-rose-petals-white-background-with-clay-oil-lamp-middle-selective-focus_466689-20064.jpg?w=1060");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:fixed;
+
+}
+
+
+
