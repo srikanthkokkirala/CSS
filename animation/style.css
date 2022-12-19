@@ -1,0 +1,42 @@
+div{
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.animation{
+    background: blue;
+    border-radius: 50%;
+    animation: myStyle 10s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes myStyle {
+    0% {
+        transform: rotate(90deg);
+        transform: translateX(10px);
+        color: rgb(242, 255, 0);
+        background: rgb(0, 187, 255);
+    }
+    25% {
+        transform: translateX(20px);
+        transform: rotate(180deg);
+        color: rgb(0, 255, 94);
+        background: rgb(102, 0, 255);
+    }
+    50% {
+        transform: translateX(30px);
+        transform: rotate(270deg);
+        color: rgb(179, 0, 255);
+        background: rgb(217, 255, 0);
+    }
+    100% {
+        transform: translateX(-4px);
+        transform: rotate(360deg);
+        color: rgb(255, 0, 174);
+        background: rgb(21, 255, 0);
+    }
