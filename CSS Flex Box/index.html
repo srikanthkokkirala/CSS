@@ -9,32 +9,51 @@
 </head>
 <style>
     .container{
-        display: flex;
-        /* flex-direction: row;==default */
-        /* flex-direction: row-reverse; */
-        /* flex-direction: column; */
-        /* flex-direction: column-reverse; */
-        /* flex-wrap: nowrap;==default */
+        display:flex;
         flex-wrap: wrap;
-        /* flex-wrap: wrap-reverse; */
-        /* justify-content: flex-start==default;
-        justify-content: flex-end;
-        justify-content: center;
-        justify-content: space-between;
+        align-items:flex-start;
         justify-content: space-around;
-        justify-content: space-evenly; */
-        /* align-items: stretch; */
-        /* align-items: flex-end */
-        /* align-items: center; */
-        /* align-items: baseline; */
-        /* align-items: flex-start; */
-        /* align-content: flex-end; */
-        align-content: center;
-        align-content: space-around;
-        align-content: space-between;
-
-
+        
+   
+        
+    
     }
+    /* .box-1{
+        flex-grow: 0;
+    }
+    .box-2{
+        flex-grow: 0;
+    }
+    .box-3{
+        flex-grow: 0;
+    }
+    .box-4{
+        flex-grow: 0;
+    } */
+    /* .box{
+        flex-grow: 1; */
+
+   
+/*flex shrinik*/ 
+/* .box-3{
+    width: 700px;
+    flex-shrink: 0; 
+} */
+
+/*flex basis*/
+
+/* .box{ */
+    /* flex: flex-grow, flex-shrink, flex-basis */
+    /* flex: 1 0 200px; */
+    /* } */
+
+/* flex short cut */
+.box{
+    flex: 0 0 calc(25% - 1rem);
+}
+
+
+        
 </style>
 <body>
     
@@ -43,6 +62,8 @@
         <div class="box box-2">2</div>
         <div class="box box-3">3</div>
         <div class="box box-4">4</div>
+        <!-- <div class="box box-5">5</div> -->
+        <!-- <div class="box box-5">5</div>
         <div class="box box-5">5</div>
         <div class="box box-5">5</div>
         <div class="box box-5">5</div>
@@ -50,9 +71,13 @@
         <div class="box box-5">5</div>
         <div class="box box-5">5</div>
         <div class="box box-5">5</div>
-        <div class="box box-5">5</div>
-        <div class="box box-5">5</div>
-        <div class="box box-5">5</div>
+        <div class="box box-5">5</div> -->
     </div>
+    <!-- <div class="banner">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2</div>
+        <div class="box box-3">3</div>
+        <div class="box box-4">4</div>
+    </div> -->
 </body>
 </html>

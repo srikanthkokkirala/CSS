@@ -1,3 +1,8 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #f3f3f3;
@@ -34,3 +39,6 @@ body{
     background: rgb(38, 186, 25);
 
 }
+.banner{
+    border: 5px solid red;
+    height: 65vh;
