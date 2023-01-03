@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <style>
+    .container {
+        padding: 3px;
+      height: 100vh;
+      display: grid;
+      /* grid-template-columns: 200px 7rem 5em 10%; */
+      /* grid-template-columns:auto auto auto; */
+
+      /* fr == frction of available space */
+      /* 1fr takes 100% of width, 
+        if we give 2fr 1fr == it takes 66.66% 33.33% of full width  */
+
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+
+      /* GRID - GAP PROPERTY */
+        /* grid-row-gap:3px; */
+        /* column-gap:3px; */
+        /* gap:15px 30px; */
+        row-gap: 10px;
+        column-gap: 15px;
+        gap: 25px;
+        gap: 2px 5px;
+      
+    }
+    .cell-4 {
+      transition: all 2s ease-in-out;
+    }
+    .cell-4:hover {
+      transform: rotateX(90deg);
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="cell cell-1">Cell 1</div>
+      <div class="cell cell-2">Cell 2</div>
+      <div class="cell cell-3">Cell 3</div>
+      <div class="cell cell-4">Cell 4</div>
+      <div class="cell cell-5">Cell 5</div>
+      <div class="cell">Cell 6</div>
+      <div class="cell">Cell 7</div>
+    </div>
+  </body>
+</html>

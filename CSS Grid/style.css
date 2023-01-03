@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.container{
+    border: 5px solid black;
+}
+.cell{
+    padding: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 3px solid red;
+    background: #bebebe;
+    color: white;
+    
+}
+.cell-1{
+    background: brown;
+}
+.cell-2{
+    background: rgb(244, 232, 14);
+}
+.cell-3{
+    background: rgb(245, 152, 76);
+}
+.cell-4{
+    background: rgb(42, 50, 165);
+}
+.cell-5{
+    background: rgb(42, 165, 93);
+}
